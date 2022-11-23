@@ -6,7 +6,7 @@ p = np.array([0,1,0])
 n = np.array([1,-1,1])
 K = np.array([[0,-n[2],n[1]],[n[2],0,-n[0]],[-n[1],n[0],0]])
 
-element = 360
+element = 36
 step = np.linspace(0,360,element)
 
 x = np.zeros(element)
